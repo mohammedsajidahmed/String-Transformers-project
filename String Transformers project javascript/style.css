@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  font-family: arial;
+}
+
+input{
+  box-sizing: border-box;
+  width: 900px;
+  height: 40px;
+  padding-left: 15px;
+  margin-bottom:35px;
+  font-size: 16px;
+}
+
+.lower-case-div, .upper-case-div, .camel-case-div, .trim-div, .snake-div, .kebab-div, .pascal-case-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.lower-case, .upper-case, .camel-case, .trim, .snake, .kebab, .pascal-case {
+  box-sizing: border-box;
+  background-color: beige;
+  text-align: left;
+  padding: 25px 17px;
+  width: 900px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+span{
+  background-color: black;
+  color: white;
+  left: 230px;
+  top: -10px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.lower{
+  display: flex;
+  text-align: left;
+}
